@@ -10,9 +10,10 @@
 <p align="center">
     <a href="https://travis-ci.org/jsheng08/hapi-pgsql"><img src="https://img.shields.io/travis/jsheng08/hapi-pgsql/master.svg" alt="travis"></a>
   <a href='https://coveralls.io/github/jsheng08/hapi-pgsql?branch=master'><img src='https://coveralls.io/repos/github/jsheng08/hapi-pgsql/badge.svg?branch=master' alt='Coverage Status' /></a>
-  <a href='https://www.npmjs.com/package/hapi-pgsql'><img alt="npm" src="https://img.shields.io/npm/dy/hapi-pgsql"></a>
+  <a href='https://hapi.dev'><img src='https://img.shields.io/badge/hapi-19.1.0-brightgreen.svg' alt='Hapi JS Version' /></a>
   <img alt="node" src="https://img.shields.io/node/v/hapi-pgsql">
   <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg" alt="Standard - JavaScript Style Guide"></a>
+  <a href='https://www.npmjs.com/package/hapi-pgsql'><img alt="npm" src="https://img.shields.io/npm/dy/hapi-pgsql"></a>
 </p>
 
 This Hapi Plugin creates a Connection to PostgreSQL when your server starts up and makes it available anywhere in your app's route handlers via request.pgsql.
