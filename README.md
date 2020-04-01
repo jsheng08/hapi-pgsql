@@ -1,19 +1,12 @@
-<h1 align="center">
-  <a href="https://github.com/jsheng08/hapi-pgsql"><img src="https://raw.githubusercontent.com/jsheng08/hapi-pgsql/master/hapi-pgsql.png" alt="hapi-pgsql" width="200"></a>
-  <br>
-  hapi-pgsql
-  <br>
-  Hapi Postgresql Plugin
-  <br>
-</h1>
-
-<p align="center">
+<a href="https://github.com/jsheng08/hapi-pgsql"><img src="https://repository-images.githubusercontent.com/251394621/cc470b80-7482-11ea-8be2-029238e60faf" alt="hapi-pgsql"></a>
+<p>
     <a href="https://travis-ci.org/jsheng08/hapi-pgsql"><img src="https://img.shields.io/travis/jsheng08/hapi-pgsql/master.svg" alt="travis"></a>
   <a href='https://coveralls.io/github/jsheng08/hapi-pgsql?branch=master'><img src='https://coveralls.io/repos/github/jsheng08/hapi-pgsql/badge.svg?branch=master' alt='Coverage Status' /></a>
   <a href='https://hapi.dev'><img src='https://img.shields.io/badge/hapi-19.1.0-brightgreen.svg' alt='Hapi JS Version' /></a>
   <img alt="node" src="https://img.shields.io/node/v/hapi-pgsql">
   <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg" alt="Standard - JavaScript Style Guide"></a>
-  <a href='https://www.npmjs.com/package/hapi-pgsql'><img alt="npm" src="https://img.shields.io/npm/dy/hapi-pgsql"></a>
+  <a href='https://www.npmjs.com/package/hapi-pgsql'><img alt="npm" src="https://img.shields.io/npm/dm/hapi-pgsql"></a>
+  <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/jsheng08/hapi-pgsql">
 </p>
 
 This Hapi Plugin creates a Connection to PostgreSQL when your server starts up and makes it available anywhere in your app's route handlers via request.pgsql.
@@ -22,6 +15,14 @@ When you shut down your server (e.g. the server.stop in your tests) the connecti
 
 This plugin supports Hapi v17 and above. 
 For older Hapi version, might consider a plugin that I love using before building this https://www.npmjs.com/package/hapi-postgres-connection
+
+### Release
+1.0.0 - Inital Repo
+
+1.0.1 - Updated to support Hapi 19, bumped NodeJS to version 12+
+
+1.0.2 - Optimized Package Size
+
 
 ### 1. Download / Install with npm / Yarn
 

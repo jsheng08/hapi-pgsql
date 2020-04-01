@@ -1,6 +1,6 @@
 {
   "name": "hapi-pgsql",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Hapi Postgresql Wrapper for Hapijs that support new hapi structure and using decorator method",
   "main": "lib/index.js",
   "directories": {
